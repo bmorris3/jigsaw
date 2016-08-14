@@ -45,3 +45,10 @@ class Puzzle(object):
         """
         self.threshold = filter.threshold_otsu(self.img)
         self.mask = self.img < self.threshold
+
+    def _bobule(self, crochule=False):
+        url = 'https://upload.wikimedia.org/wikipedia/en/4/42/Beatles_-_Abbey_Road.jpg' 
+        import webbrowser
+        webbrowser.open(url)
+
+
